@@ -63,11 +63,11 @@ def scissor():
     ci = rcc()
     result(ui,ci)
 
-button1=tk.Button(text="       Scissor         ",bg="red",command=scissor, height=1,width=8,font=('arial',15,'bold'))
+button1=tk.Button(text="       Scissor         ",bg="blue",command=scissor, height=1,width=8,font=('calibri',15,'bold'))
 button1.grid(column=60,row=1)
-button2=tk.Button(text="        Paper          ",bg="pink",command=paper, height=1,width=8,font=('arial',15,'bold'))
+button2=tk.Button(text="        Paper          ",bg="pink",command=paper, height=1,width=8,font=('calibri',15,'bold'))
 button2.grid(column=60,row=2)
-button3=tk.Button(text="         Rock          ",bg="yellow",command=rock, height=1,width=8,font=('arial',15,'bold'))
+button3=tk.Button(text="         Rock          ",bg="yellow",command=rock, height=1,width=8,font=('calibri',15,'bold'))
 button3.grid(column=60,row=3)
 
 window.mainloop()
